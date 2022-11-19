@@ -521,7 +521,7 @@
     </socket-binding-group>
     <deployments>
         <deployment name="JavaConfigDependenciesInDeploymentTest.war" runtime-name="JavaConfigDependenciesInDeploymentTest.war">
-            <content sha1="8447a0e041cdd0e81608709e8257d78ae55c6704"/>
+            <content sha1="12ea6b02839e024e224d6b77b853367753db8684"/>
         </deployment>
     </deployments>
 </server>

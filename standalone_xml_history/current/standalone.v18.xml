@@ -521,7 +521,7 @@
     </socket-binding-group>
     <deployments>
         <deployment name="SpringLocatingResourceDependenciesInDeploymentTest.war" runtime-name="SpringLocatingResourceDependenciesInDeploymentTest.war">
-            <content sha1="464cca492a0e51c79e41a495c4ec05c150c87c84"/>
+            <content sha1="402ead872b2bf5fd6caa39df242fa257dc1f4314"/>
         </deployment>
     </deployments>
 </server>

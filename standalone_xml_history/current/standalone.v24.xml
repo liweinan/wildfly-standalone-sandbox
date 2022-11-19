@@ -521,7 +521,7 @@
     </socket-binding-group>
     <deployments>
         <deployment name="ContextRefreshDependenciesInDeploymentTest.war" runtime-name="ContextRefreshDependenciesInDeploymentTest.war">
-            <content sha1="02a909ba3b2fcf2da771cc8f539484e4d56db15b"/>
+            <content sha1="eb61b8be9de693f1c0d3144a12c02a7a62673fc2"/>
         </deployment>
     </deployments>
 </server>

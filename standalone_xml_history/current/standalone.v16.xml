@@ -521,7 +521,7 @@
     </socket-binding-group>
     <deployments>
         <deployment name="ContactsDependenciesInDeploymentTest.war" runtime-name="ContactsDependenciesInDeploymentTest.war">
-            <content sha1="056917e1aee062873918ddca29060da50165700e"/>
+            <content sha1="de3abd61fc518b7f94d814d4141fdc397c6f32f1"/>
         </deployment>
     </deployments>
 </server>

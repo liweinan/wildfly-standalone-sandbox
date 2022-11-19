@@ -521,7 +521,7 @@
     </socket-binding-group>
     <deployments>
         <deployment name="SpringBeanProcessorDependenciesInDeploymentTest.war" runtime-name="SpringBeanProcessorDependenciesInDeploymentTest.war">
-            <content sha1="8bf73ccb3e0268b326b9f5af86d64bff3b483b49"/>
+            <content sha1="5b99beec361234c5e6aaed828b6d83f25983edfc"/>
         </deployment>
     </deployments>
 </server>

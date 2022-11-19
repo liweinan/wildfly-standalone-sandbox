@@ -521,7 +521,7 @@
     </socket-binding-group>
     <deployments>
         <deployment name="TypeMappingDependenciesInDeploymentTest.war" runtime-name="TypeMappingDependenciesInDeploymentTest.war">
-            <content sha1="77b461e7e5e7c5e29a224b03ff06085348c8623b"/>
+            <content sha1="c260b4b2547231d97009225534bd5bcd28e21fb0"/>
         </deployment>
     </deployments>
 </server>

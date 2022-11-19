@@ -1,0 +1,22 @@
+--- standalone.xml	2022-11-19 21:20:20.000000000 +0800
++++ standalone.xml.orig	2022-11-19 01:09:23.000000000 +0800
+@@ -430,6 +430,7 @@
+         <subsystem xmlns="urn:jboss:domain:jpa:1.1">
+             <jpa default-extended-persistence-inheritance="DEEP"/>
+         </subsystem>
++        <subsystem xmlns="urn:jboss:domain:jsf:1.1"/>
+         <subsystem xmlns="urn:jboss:domain:mail:4.0">
+             <mail-session name="default" jndi-name="java:jboss/mail/Default">
+                 <smtp-server outbound-socket-binding-ref="mail-smtp"/>
+@@ -438,6 +439,11 @@
+         <subsystem xmlns="urn:wildfly:metrics:1.0" security-enabled="false" exposed-subsystems="*" prefix="${wildfly.metrics.prefix:wildfly}"/>
+         <subsystem xmlns="urn:wildfly:microprofile-config-smallrye:2.0"/>
+         <subsystem xmlns="urn:wildfly:microprofile-jwt-smallrye:1.0"/>
++        <subsystem xmlns="urn:wildfly:microprofile-opentracing-smallrye:3.0" default-tracer="jaeger">
++            <jaeger-tracer name="jaeger">
++                <sampler-configuration sampler-type="const" sampler-param="1.0"/>
++            </jaeger-tracer>
++        </subsystem>
+         <subsystem xmlns="urn:jboss:domain:naming:2.0">
+             <remote-naming/>
+         </subsystem>

@@ -521,7 +521,7 @@
     </socket-binding-group>
     <deployments>
         <deployment name="SpringWebappContextDependenciesInDeploymentTest.war" runtime-name="SpringWebappContextDependenciesInDeploymentTest.war">
-            <content sha1="41ec2d085c10181e9347fda45f9c0ef74e462f2c"/>
+            <content sha1="b9af189b0d161f81ba79148430a8b4df6db2e8d8"/>
         </deployment>
     </deployments>
 </server>

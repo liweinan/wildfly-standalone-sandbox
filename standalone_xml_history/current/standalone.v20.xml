@@ -521,7 +521,7 @@
     </socket-binding-group>
     <deployments>
         <deployment name="RequestScopedBeanDependenciesInDeploymentTest.war" runtime-name="RequestScopedBeanDependenciesInDeploymentTest.war">
-            <content sha1="6a5e330a03b39ddb11a9a03fff04e6944f4c574e"/>
+            <content sha1="6046f4ea8e22b58e78c00d9a4ba2c491ce91d9fe"/>
         </deployment>
     </deployments>
 </server>

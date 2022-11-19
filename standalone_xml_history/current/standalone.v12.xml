@@ -521,7 +521,7 @@
     </socket-binding-group>
     <deployments>
         <deployment name="JaxrsWithSpringMVCTest.war" runtime-name="JaxrsWithSpringMVCTest.war">
-            <content sha1="8818f66bfb4dae64a1d12dd3303d35b8d6620104"/>
+            <content sha1="bf8fdd993f7f7d55ebdfbdcf6d671236b460dd1c"/>
         </deployment>
     </deployments>
 </server>

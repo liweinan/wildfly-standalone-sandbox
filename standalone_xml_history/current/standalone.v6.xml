@@ -520,14 +520,14 @@
         </outbound-socket-binding>
     </socket-binding-group>
     <deployments>
-        <deployment name="deploymentWithSpringMvcDispatcherSpringIncluded.war" runtime-name="deploymentWithSpringMvcDispatcherSpringIncluded.war">
-            <content sha1="d005fefb59d8878247822a47e57194b848836c99"/>
-        </deployment>
         <deployment name="deploymentWithSpringContextLoaderListenerSpringIncluded.war" runtime-name="deploymentWithSpringContextLoaderListenerSpringIncluded.war">
-            <content sha1="7127f941b67d6c068a62a91bea737970a810ff41"/>
+            <content sha1="e4845329028a059a8fec9015905d8e9196c953fe"/>
         </deployment>
         <deployment name="deploymentWithoutSpringMvcDispatcherOrListenerSpringIncluded.war" runtime-name="deploymentWithoutSpringMvcDispatcherOrListenerSpringIncluded.war">
-            <content sha1="ab1719378a5cdf05e1def3b47e1afc4318960fe9"/>
+            <content sha1="bdfd8957fa061b20eb87924b8eb8d3cc578083c4"/>
+        </deployment>
+        <deployment name="deploymentWithSpringMvcDispatcherSpringIncluded.war" runtime-name="deploymentWithSpringMvcDispatcherSpringIncluded.war">
+            <content sha1="211c5a1eb2c814888bb93fa47b3ae532a32bac62"/>
         </deployment>
     </deployments>
 </server>
